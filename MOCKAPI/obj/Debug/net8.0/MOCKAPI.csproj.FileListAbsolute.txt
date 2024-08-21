@@ -1,0 +1,14 @@
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.AssemblyInfoInputs.cache
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.AssemblyInfo.cs
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.csproj.CoreCompileInputs.cache
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\bin\Debug\net8.0\MOCKAPI.exe
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\bin\Debug\net8.0\MOCKAPI.deps.json
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\bin\Debug\net8.0\MOCKAPI.runtimeconfig.json
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\bin\Debug\net8.0\MOCKAPI.dll
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\bin\Debug\net8.0\MOCKAPI.pdb
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.dll
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\refint\MOCKAPI.dll
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.pdb
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.genruntimeconfig.cache
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\ref\MOCKAPI.dll
