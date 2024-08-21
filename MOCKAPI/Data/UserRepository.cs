@@ -1,11 +1,8 @@
-using System.Net.Http;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace MOCKAPI.Data
 {
-    public class UserRepository
+    public class UserRepository :IUserRepository
     {
         private readonly HttpClient _httpClient;
 
