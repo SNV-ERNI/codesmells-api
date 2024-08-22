@@ -1,4 +1,4 @@
-namespace MOCKAPI.Services
+namespace MOCKAPI.Interfaces
 {
     public interface IUserService
     {

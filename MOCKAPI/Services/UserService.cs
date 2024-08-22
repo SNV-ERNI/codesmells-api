@@ -1,4 +1,5 @@
 using MOCKAPI.Data;
+using MOCKAPI.Interfaces;
 
 namespace MOCKAPI.Services
 {
@@ -14,10 +15,7 @@ namespace MOCKAPI.Services
         public async Task<List<User>?> GetUsersAsync()
         {
             List<User>? users = await _userRepository.GetUsersAsync() ?? throw new ArgumentException("No Users Found");
-            foreach (var user in users)
-            {
-                user.name += " :";
-            }
+
             return users;
         }
     }

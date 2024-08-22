@@ -1,4 +1,4 @@
-namespace MOCKAPI.Data
+namespace MOCKAPI.Interfaces
 {
     public interface IUserRepository
     {
