@@ -1,5 +1,6 @@
 ﻿using MOCKAPI.Services;
 using MOCKAPI.Data;
+using MOCKAPI.Interfaces;
 
 namespace MOCKAPI
 {
@@ -7,25 +8,22 @@ namespace MOCKAPI
     {
         static async Task Main(string[] args)
         {
-            using (HttpClient client = new HttpClient())
+            IUserRepository userRepository = new UserRepository();
+
+            List<User>? users = await new UserService(userRepository).GetUsersAsync();
+
+            if (users != null)
             {
-                UserRepository userRepository = new(client);
-                UserService userService = new(userRepository);
-
-                List<User>? users = await userService.GetUsersAsync();
-
-                if (users != null)
+                foreach (var user in users)
                 {
-                    foreach (var user in users)
-                    {
-                        Console.WriteLine($"ID: {user.id} | Name: {user.name} | Email: {user.email}");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("No Users Found.");
+                    Console.WriteLine($"ID: {user.id} | Name: {user.name} | Email: {user.email}");
                 }
             }
+            else
+            {
+                Console.WriteLine("No Users Found.");
+            }
+        
         }
     }
 }

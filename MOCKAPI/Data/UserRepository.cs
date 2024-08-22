@@ -3,13 +3,13 @@ using MOCKAPI.Interfaces;
 
 namespace MOCKAPI.Data
 {
-    public class UserRepository :IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly HttpClient _httpClient;
 
-        public UserRepository(HttpClient httpClient)
+        public UserRepository()
         {
-            _httpClient = httpClient;
+            _httpClient = new HttpClient();
         }
 
         public async Task<List<User>?> GetUsersAsync()
