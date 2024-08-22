@@ -12,3 +12,4 @@ C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\refint\MOCKAPI.dll
 C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.pdb
 C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.genruntimeconfig.cache
 C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\ref\MOCKAPI.dll
+C:\Users\Boot Camp\CODESMELLSAPI\MOCKAPI\obj\Debug\net8.0\MOCKAPI.sourcelink.json

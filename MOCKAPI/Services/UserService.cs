@@ -13,7 +13,12 @@ namespace MOCKAPI.Services
 
         public async Task<List<User>?> GetUsersAsync()
         {
-            return await _userRepository.GetUsersAsync();
+            List<User>? users = await _userRepository.GetUsersAsync() ?? throw new ArgumentException("No Users Found");
+            foreach (var user in users)
+            {
+                user.name += " :";
+            }
+            return users;
         }
     }
 }

@@ -21,7 +21,7 @@ namespace MOCKAPI
                 {
                     foreach (var user in users)
                     {
-                        Console.WriteLine($"ID: {user.id}. Name: {user.name}. Email: {user.email}");
+                        Console.WriteLine($"ID: {user.id}. Name: {user.name} Email: {user.email}");
                     }
                 }
                 else
