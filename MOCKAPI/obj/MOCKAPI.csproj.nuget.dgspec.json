@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Boot Camp\\CODESMELLSAPI\\MOCKAPI\\MOCKAPI.csproj": {}
+    "C:\\Users\\Boot Camp\\vs_code\\codesmells-api\\MOCKAPI\\MOCKAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Boot Camp\\CODESMELLSAPI\\MOCKAPI\\MOCKAPI.csproj": {
+    "C:\\Users\\Boot Camp\\vs_code\\codesmells-api\\MOCKAPI\\MOCKAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Boot Camp\\CODESMELLSAPI\\MOCKAPI\\MOCKAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Boot Camp\\vs_code\\codesmells-api\\MOCKAPI\\MOCKAPI.csproj",
         "projectName": "MOCKAPI",
-        "projectPath": "C:\\Users\\Boot Camp\\CODESMELLSAPI\\MOCKAPI\\MOCKAPI.csproj",
+        "projectPath": "C:\\Users\\Boot Camp\\vs_code\\codesmells-api\\MOCKAPI\\MOCKAPI.csproj",
         "packagesPath": "C:\\Users\\Boot Camp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Boot Camp\\CODESMELLSAPI\\MOCKAPI\\obj\\",
+        "outputPath": "C:\\Users\\Boot Camp\\vs_code\\codesmells-api\\MOCKAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Boot Camp\\AppData\\Roaming\\NuGet\\NuGet.Config",

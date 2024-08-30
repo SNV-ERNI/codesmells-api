@@ -22,13 +22,17 @@ namespace MOCKAPI.Data
             catch (HttpRequestException ex)
             {
                 Console.WriteLine($"Request Error: {ex.Message}");
+                //you can implement logger here if you want to log the error.
                 return null;
             }
             catch (ArgumentNullException ex)
             {
                 Console.WriteLine($"Null Error: {ex.Message}");
+                //you can implement logger here if you want to log the error.
                 return null;
             }
+
+            //you can add another exception here if you want to catch other errors.
         }
     }
 }
