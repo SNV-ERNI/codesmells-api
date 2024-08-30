@@ -14,6 +14,7 @@ namespace MOCKAPI
 
             if (users != null)
             {
+                //you could also include other properties in the foreach Loop(e.g. username, company, etc.).
                 foreach (var user in users)
                 {
                     Console.WriteLine($"ID: {user.id} | Name: {user.name} | Email: {user.email}");
@@ -23,7 +24,7 @@ namespace MOCKAPI
             {
                 Console.WriteLine("No Users Found.");
             }
-        
+
         }
     }
 }
